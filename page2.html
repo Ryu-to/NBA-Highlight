@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/Users/ryuto/Downloads/G's/JS Kadai/dist/sweetalert2.js"></script>
+  <link rel="stylesheet" href="nba2.css">
+  <link rel="stylesheet" href="/Users/ryuto/Downloads/G's/JS Kadai/dist/sweetalert2.css">
+  <title>NBA Highlight</title>
+</head>
+
+<body>
+  <main>
+    <div class="contents">
+      <div class="defense">
+        <p id="action">？</p>
+        <button id="start">Game</button>
+      </div>
+      <div class="offense">
+        <button id="driveBtn">Drive</button>
+        <button id="shootBtn">Jump</button>
+        <button id="passBtn">Pass</button>
+      </div>
+      <div id="log">TIME</div>
+    </div>
+
+
+    <div id="video-container">
+      <video id="missShot" onended="location.href='page4.html';" src="Video/Missshot.mp4" muted autoplay webkit-playsinline
+        playsinline></video>
+      <video id="makeShot" onended="location.href='page3.html';" src="Video/Shot1.mp4" muted autoplay webkit-playsinline
+        playsinline></video>
+      <video id="driveBlock" onended="location.href='page4.html';" src="Video/DriveBlock.mp4" muted autoplay webkit-playsinline
+        playsinline></video>
+      <video id="shotBlock"  onended="location.href='page4.html';" src="Video/ShotBlock.mp4" muted autoplay webkit-playsinline
+        playsinline></video>
+      <video id="passShot"  onended="location.href='page3.html';" src="Video/PassShot.mp4" muted autoplay webkit-playsinline
+        playsinline></video>
+      <video id="dunk" onended="location.href='page3.html';"  src="Video/dunk.mp4" muted autoplay webkit-playsinline playsinline></video>
+      <video id="passDunk" onended="location.href='page3.html';" src="Video/passDunk.mp4" muted autoplay webkit-playsinline
+        playsinline></video>
+      <video id="driveDunk" onended="location.href='page3.html';"  src="Video/driveDunk.mp4" muted autoplay webkit-playsinline
+        playsinline></video>
+      <video id="threePoints" onended="location.href='page3.html';" src="Video/Curry.mp4" muted autoplay webkit-playsinline
+        playsinline></video>
+      <video id="fives"  onended="location.href='page4.html';" src="Video/fives.mp4" muted autoplay webkit-playsinline playsinline></video>
+      <video id="blocked" onended="location.href='page4.html';" src="Video/Blockkk.mp4" muted autoplay webkit-playsinline playsinline></video>
+    </div>
+
+  </main>
+
+  <script src="nba2.js"></script>
+</body>
+
+</html>

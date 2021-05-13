@@ -1,0 +1,83 @@
+
+
+body {
+    text-align:  center;    /* 文字中央寄せ */
+    background-image: url("image/TV.jpg");
+    background-size:contain;/*背景画像のサイズを指定*/
+	background-attachment: fixed;/*背景画像を固定したままにするかしないか*/
+    background-size:87% auto;
+    background-position: center center;
+    position: relative; 
+}
+
+ .bg  {
+    width: 782px;
+    height:450px;
+    position: absolute;
+    left: 330px;
+    top:80px;
+    display: flex;
+    flex-direction: row;
+}
+ 
+ .inner_m{
+    text-align: center;
+    width: 390px;
+    position: relative;
+ }
+ img {
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
+ }
+ a {
+    text-decoration: none;
+    color: #1a1a1a;
+ }
+ #gameover {
+    font-family: 'Vanguard';
+    font-weight: bold;
+    font-size: 52px;
+    position: absolute;
+    top:180px;
+    left:20px
+ }
+ h2{
+    position: absolute;
+    top:110px;
+    left: 45px;
+    font-size: 40px;
+    color: rgb(80, 80, 80);
+ }
+ p {
+     text-align: center;
+ }
+ .p2_e, .p2_w {
+    font-weight: bold;
+    font-size: 40px;
+    margin:0px;
+ }
+
+
+ span {
+    color: #1a1a1a;
+    background-color: #929292;
+    border-radius:20px;
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    top:210px;
+    left:65px;
+ }
+ 
+ .date {
+    margin: 0 0 0 10px;
+    display: inline-block;
+    position: absolute;
+    top:210px;
+    left:130px;
+ }
+ #log {
+    text-align: left;
+ }
+ 
